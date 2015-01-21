@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBA2F021A6F27A6003652F3 /* libSharedLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBA2EF61A6F27A6003652F3 /* libSharedLib.a */; };
+		FCE8E8C31A6F3B6E00A3E504 /* Canary.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE8E8B91A6F3B6E00A3E504 /* Canary.m */; };
+		FCE8E8C41A6F3B6E00A3E504 /* CoalMine.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE8E8BE1A6F3B6E00A3E504 /* CoalMine.m */; };
+		FCE8E8C51A6F3B6E00A3E504 /* CoalMine.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE8E8C21A6F3B6E00A3E504 /* CoalMine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBA2F031A6F27A6003652F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBA2EEE1A6F27A6003652F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBA2EF51A6F27A6003652F3;
+			remoteInfo = SharedLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCBA2EF41A6F27A6003652F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCBA2EF61A6F27A6003652F3 /* libSharedLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSharedLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBA2F011A6F27A6003652F3 /* SharedLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBA2F071A6F27A6003652F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE8E8B81A6F3B6E00A3E504 /* Canary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canary.h; sourceTree = "<group>"; };
+		FCE8E8B91A6F3B6E00A3E504 /* Canary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canary.m; sourceTree = "<group>"; };
+		FCE8E8BD1A6F3B6E00A3E504 /* CoalMine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoalMine.h; sourceTree = "<group>"; };
+		FCE8E8BE1A6F3B6E00A3E504 /* CoalMine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoalMine.m; sourceTree = "<group>"; };
+		FCE8E8C11A6F3B6E00A3E504 /* CoalMine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoalMine.h; sourceTree = "<group>"; };
+		FCE8E8C21A6F3B6E00A3E504 /* CoalMine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoalMine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBA2EF31A6F27A6003652F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBA2EFE1A6F27A6003652F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBA2F021A6F27A6003652F3 /* libSharedLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBA2EED1A6F27A6003652F3 = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8B71A6F3B6E00A3E504 /* objc_gen */,
+				FCBA2F051A6F27A6003652F3 /* SharedLibTests */,
+				FCBA2EF71A6F27A6003652F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBA2EF71A6F27A6003652F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA2EF61A6F27A6003652F3 /* libSharedLib.a */,
+				FCBA2F011A6F27A6003652F3 /* SharedLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBA2F051A6F27A6003652F3 /* SharedLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA2F061A6F27A6003652F3 /* Supporting Files */,
+			);
+			path = SharedLibTests;
+			sourceTree = "<group>";
+		};
+		FCBA2F061A6F27A6003652F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA2F071A6F27A6003652F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCE8E8B71A6F3B6E00A3E504 /* objc_gen */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8B81A6F3B6E00A3E504 /* Canary.h */,
+				FCE8E8B91A6F3B6E00A3E504 /* Canary.m */,
+				FCE8E8BA1A6F3B6E00A3E504 /* com */,
+			);
+			name = objc_gen;
+			path = ../../shared/objc_gen;
+			sourceTree = "<group>";
+		};
+		FCE8E8BA1A6F3B6E00A3E504 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8BB1A6F3B6E00A3E504 /* developertown */,
+				FCE8E8BF1A6F3B6E00A3E504 /* rjet */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		FCE8E8BB1A6F3B6E00A3E504 /* developertown */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8BC1A6F3B6E00A3E504 /* shared */,
+			);
+			path = developertown;
+			sourceTree = "<group>";
+		};
+		FCE8E8BC1A6F3B6E00A3E504 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8BD1A6F3B6E00A3E504 /* CoalMine.h */,
+				FCE8E8BE1A6F3B6E00A3E504 /* CoalMine.m */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		FCE8E8BF1A6F3B6E00A3E504 /* rjet */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8C01A6F3B6E00A3E504 /* shared */,
+			);
+			path = rjet;
+			sourceTree = "<group>";
+		};
+		FCE8E8C01A6F3B6E00A3E504 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8E8C11A6F3B6E00A3E504 /* CoalMine.h */,
+				FCE8E8C21A6F3B6E00A3E504 /* CoalMine.m */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBA2EF51A6F27A6003652F3 /* SharedLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBA2F0A1A6F27A6003652F3 /* Build configuration list for PBXNativeTarget "SharedLib" */;
+			buildPhases = (
+				FCBA2EF21A6F27A6003652F3 /* Sources */,
+				FCBA2EF31A6F27A6003652F3 /* Frameworks */,
+				FCBA2EF41A6F27A6003652F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedLib;
+			productName = SharedLib;
+			productReference = FCBA2EF61A6F27A6003652F3 /* libSharedLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCBA2F001A6F27A6003652F3 /* SharedLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBA2F0D1A6F27A6003652F3 /* Build configuration list for PBXNativeTarget "SharedLibTests" */;
+			buildPhases = (
+				FCBA2EFD1A6F27A6003652F3 /* Sources */,
+				FCBA2EFE1A6F27A6003652F3 /* Frameworks */,
+				FCBA2EFF1A6F27A6003652F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBA2F041A6F27A6003652F3 /* PBXTargetDependency */,
+			);
+			name = SharedLibTests;
+			productName = SharedLibTests;
+			productReference = FCBA2F011A6F27A6003652F3 /* SharedLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBA2EEE1A6F27A6003652F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = RJ;
+				TargetAttributes = {
+					FCBA2EF51A6F27A6003652F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FCBA2F001A6F27A6003652F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FCBA2EF11A6F27A6003652F3 /* Build configuration list for PBXProject "SharedLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCBA2EED1A6F27A6003652F3;
+			productRefGroup = FCBA2EF71A6F27A6003652F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBA2EF51A6F27A6003652F3 /* SharedLib */,
+				FCBA2F001A6F27A6003652F3 /* SharedLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBA2EFF1A6F27A6003652F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBA2EF21A6F27A6003652F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE8E8C51A6F3B6E00A3E504 /* CoalMine.m in Sources */,
+				FCE8E8C31A6F3B6E00A3E504 /* Canary.m in Sources */,
+				FCE8E8C41A6F3B6E00A3E504 /* CoalMine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBA2EFD1A6F27A6003652F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBA2F041A6F27A6003652F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBA2EF51A6F27A6003652F3 /* SharedLib */;
+			targetProxy = FCBA2F031A6F27A6003652F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCBA2F081A6F27A6003652F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$J2OBJC_HOME/include,
+					$SHARED_LIB_SOURCE_ROOT,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				J2OBJC_HOME = $HOME/Developer/j2objc;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SHARED_LIB_SOURCE_ROOT = ../../shared/objc_gen;
+			};
+			name = Debug;
+		};
+		FCBA2F091A6F27A6003652F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$J2OBJC_HOME/include,
+					$SHARED_LIB_SOURCE_ROOT,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				J2OBJC_HOME = $HOME/Developer/j2objc;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SHARED_LIB_SOURCE_ROOT = ../../shared/objc_gen;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBA2F0B1A6F27A6003652F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCBA2F0C1A6F27A6003652F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCBA2F0E1A6F27A6003652F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCBA2F0F1A6F27A6003652F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBA2EF11A6F27A6003652F3 /* Build configuration list for PBXProject "SharedLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBA2F081A6F27A6003652F3 /* Debug */,
+				FCBA2F091A6F27A6003652F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBA2F0A1A6F27A6003652F3 /* Build configuration list for PBXNativeTarget "SharedLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBA2F0B1A6F27A6003652F3 /* Debug */,
+				FCBA2F0C1A6F27A6003652F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBA2F0D1A6F27A6003652F3 /* Build configuration list for PBXNativeTarget "SharedLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBA2F0E1A6F27A6003652F3 /* Debug */,
+				FCBA2F0F1A6F27A6003652F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBA2EEE1A6F27A6003652F3 /* Project object */;
+}
